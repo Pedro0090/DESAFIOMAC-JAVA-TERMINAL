@@ -16,6 +16,10 @@ public class Main {
         while (true) {
             System.out.println("Informe o nome da primeira pessoa:");
             nomePessoa1 = scannerStr.nextLine();
+            if (nomePessoa1 == "") {
+                System.out.println("Erro! Você não pode deixar o campo nome vazio!");
+                break;
+            }
 
             System.out.println("Informe a idade da primeira pessoa:");
             idadePessoa1 = scannerInt.nextInt();
@@ -26,6 +30,10 @@ public class Main {
 
             System.out.println("Informe o nome da segunda pessoa:");
             nomePessoa2 = scannerStr.nextLine();
+            if (nomePessoa2 == "") {
+                System.out.println("Erro! Você não pode deixar o campo nome vazio!");
+                break;
+            }
 
             System.out.println("Informe a idade da segunda pessoa:");
             idadePessoa2 = scannerInt.nextInt();
@@ -48,4 +56,3 @@ public class Main {
         }
     }
 }
-
