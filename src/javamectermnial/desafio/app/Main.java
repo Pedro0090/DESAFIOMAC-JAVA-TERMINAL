@@ -1,10 +1,10 @@
 package javamectermnial.desafio.app;
 
+import java.util.Scanner;
+
 import javamectermnial.desafio.utils.CalculadoraIdade;
 import javamectermnial.desafio.model.Pessoa;
 import javamectermnial.desafio.utils.Verificador;
-
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
